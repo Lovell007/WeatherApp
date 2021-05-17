@@ -9,7 +9,7 @@ An application that allows you to search for weather and air quality based on co
 
 I'm using AirVisual API: https://api-docs.iqair.com/?version=latest
 
-Sample API endpoint: http://api.airvisual.com/v2/city?city=Los+Angeles&state=California&country=USA&key={APIKey}
+Sample API endpoint: http://api.airvisual.com/v2/city?city=Los+Angeles&state=California&country=USA&key={{YOUR_API_KEY}}
 ```json
 {
     "status": "success",
@@ -45,7 +45,33 @@ Sample API endpoint: http://api.airvisual.com/v2/city?city=Los+Angeles&state=Cal
     }
 }
 ```
-
+Sample API for list of countries: http://api.airvisual.com/v2/countries?key={{YOUR_API_KEY}}
+```json
+{
+    "status": "success",
+    "data": [
+        {
+            "country": "Afghanistan"
+        },
+        {
+            "country": "Algeria"
+        },
+        {
+            "country": "Andorra"
+        },
+        {
+            "country": "Angola"
+        },
+        {
+            "country": "Argentina"
+        },
+        {
+            "country": "Armenia"
+        },
+        {
+            "country": "Australia"
+        },
+```
 ## Wireframes
 
 https://github.com/Lovell007/WeatherApp/tree/main/assets One is for the desktop version. The other is for mobile.
