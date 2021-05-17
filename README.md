@@ -32,7 +32,7 @@ Add "current location" feature
 
 ## Project Schedule
 
-|  Day | Deliverable 
+|  Day | Deliverable |
 |---|---|
 
 |May 17| Project Approval 
