@@ -1,16 +1,49 @@
-# Project Overview
 
-## Project Name
+# Weather App
 
-Weather App https://github.com/Lovell007/WeatherApp.git
-
-## Project Description
+## Description
 
 An application that allows you to search for weather and air quality based on country, state, and city.
 
 ## API and Data Sample
 
 I'm using AirVisual API https://api-docs.iqair.com/?version=latest
+
+```json
+{
+    "status": "success",
+    "data": {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "USA",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -118.2417,
+                34.0669
+            ]
+        },
+        "current": {
+            "weather": {
+                "ts": "2021-05-17T18:00:00.000Z",
+                "tp": 17,
+                "pr": 1017,
+                "hu": 63,
+                "ws": 1.54,
+                "wd": 0,
+                "ic": "04d"
+            },
+            "pollution": {
+                "ts": "2021-05-17T19:00:00.000Z",
+                "aqius": 47,
+                "mainus": "p2",
+                "aqicn": 16,
+                "maincn": "p2"
+            }
+        }
+    }
+}
+```
 
 ## Wireframes
 
