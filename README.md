@@ -32,14 +32,15 @@ Add "current location" feature
 
 ## Project Schedule
 
-|  Day | Deliverable |
-|---|---|
+|  Day | Deliverable | Status
+|---|---| ---|
+|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|May 17| Project Approval | Incomplete
+|May 18| Core Application Structure (HTML, CSS, etc.)/ Pseudocode | Incomplete
+|May 19| Actual code/ Results Display Box | Incomplete
+|May 20| MVP | Incomplete
+|May 21| Presentations | Incomplete
 
-|May 17| Project Approval |
-|May 18| Core Application Structure (HTML, CSS, etc.)/ Pseudocode |
-|May 19| Actual code/ Results Display Box |
-|May 20| MVP |
-|May 21| Presentations |
 
 ## Priority Matrix
 
