@@ -35,11 +35,11 @@ Add "current location" feature
 |  Day | Deliverable |
 |---|---|
 
-|May 17| Project Approval 
-|May 18| Core Application Structure (HTML, CSS, etc.)/ Pseudocode
-|May 19| Actual code/ Results Display Box
-|May 20| MVP 
-|May 21| Presentations
+|May 17| Project Approval |
+|May 18| Core Application Structure (HTML, CSS, etc.)/ Pseudocode |
+|May 19| Actual code/ Results Display Box |
+|May 20| MVP |
+|May 21| Presentations |
 
 ## Priority Matrix
 
