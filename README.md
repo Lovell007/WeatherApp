@@ -111,27 +111,19 @@ https://wireframe.cc/n04juC
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-Api Code| H | 1.5 hr
-HTML/CSS base Code| M | 1.5 hr
-Search Input/Dropbox | H | 2.5 hr
-Results Table (CSS) | H | 3 hr
-Results Table (HTML/JS) | H | 3 hr
-Fahrenheit Converter | H | .5 hr
-Media Query (desktop and mobile) | M | 2 hr
-Flexbox | M | 1 hr
-Advance CSS styling (animations/backgrounds) | L | 3 hr
-Results Based Info | L | 2.5 hr
-Current Location Feature | L | 3 hr
+|Get API Data for Countries and Weather| H | 2 hr |-|-|
+|Search Inputs Functionality | H | 3 hr |-|-|
+|Search Dropdown Functionality | H | 3 hr |-|-|
+|Appending DropDown Data to the DOM | H | 2 hr |-|-|
+|Results Table (CSS) | H | 3 hr |-|-|
+|Results Table (HTML/JS) | H | 3 hr |-|-|
+|Fahrenheit Converter | H | 2 hr |-|-|
+|Media Query | M | 2 hr |-|-|
+|Flexbox for Search Inputs and Dropdowns | M | 2 hr |-|-|
+|Advance CSS styling (animations/ gifs backgrounds) | L | 3 hr |-|-|
+|Dropwdown and Input Styling | L | 3 hr |-|-|
+|Total hours |-| 28 hours |-|-|
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
-
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
