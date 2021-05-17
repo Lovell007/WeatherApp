@@ -6,7 +6,7 @@ Weather App https://github.com/Lovell007/WeatherApp.git
 
 ## Project Description
 
-An application that allows you to look up weather and air quality based on country state and city.
+An application that allows you to search for weather and air quality based on country, state, and city.
 
 ## API and Data Sample
 
