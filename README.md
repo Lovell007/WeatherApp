@@ -8,7 +8,7 @@ An application that allows you to search for weather and air quality based on co
 ## API and Data Sample
 
 I'm using AirVisual API https://api-docs.iqair.com/?version=latest
-
+http://api.airvisual.com/v2/city?city=Los Angeles&state=California&country=USA&key={APIKey}
 ```json
 {
     "status": "success",
