@@ -14,7 +14,7 @@ I'm using AirVisual API https://api-docs.iqair.com/?version=latest
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://github.com/Lovell007/WeatherApp/tree/main/assets One is for the desktop version. The other is for mobile.
 
 ### MVP/PostMVP
 
