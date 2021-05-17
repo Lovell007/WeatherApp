@@ -78,17 +78,16 @@ https://github.com/Lovell007/WeatherApp/tree/main/assets One is for the desktop 
 
 ### MVP/PostMVP
 
-Add Country dropdown box.
-Accept user input to provide weather and air quality data.
-Fahrenheit converter for current temp.
+- Add Country dropdown box and state and city text input boxes
+- Accept country, state, and city user input to provide weather and air quality data.
+- Fahrenheit converter for current temp.
 
 #### PostMVP  
 
-Animated visual based on current weather
-Add information based on search results....
-	Air quality assessments (warnings and suggestions)
-	Comments on weather (ie. Bring a coat it's chilly, Perfect BBq weather, Remember your umbrella, ect)
-Add "current location" feature
+- Animated visual based on current weather
+- Add air quality assessments (warnings and suggestions)
+- Add comments on weather (ie. Bring a coat it's chilly, Perfect BBq weather, Remember your umbrella, ect)
+- Add "current location" feature
 
 ## Project Schedule
 
