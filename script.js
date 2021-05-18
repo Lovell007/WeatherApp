@@ -2,11 +2,27 @@ const countryList = document.querySelector('#countryList')
 const form = document.querySelector('form')
 
 // Get weather and air quality data from Air Visual API
-const getData = async (url) => {
+const getData = async () => {
   try {
-    console.log(url)
-    const response = await axios.get(url)
+    // Taking user inputs to create a url for axios to access
+    let countryInput = document.getElementById('countryList').value
+    let stateInput = document.getElementById('state').value
+    let cityInput = document.getElementById('city').value
+    const response = await axios.get(`http://api.airvisual.com/v2/city?city=${cityInput}&state=${stateInput}&country=${countryInput}&key=a8d5eef1-08b6-4154-a079-74103b291102`)
+
+    // Displying search results in the results table
+    const currentWeather = (response.data.data.current.weather)
+    const currentAirQuality = (response.data.data.current.pollution)
+    const convertedTemp = tempConverter(currentWeather.tp)
     console.log(response.data.data)
+    document.getElementById('currentTemp').textContent = convertedTemp
+    document.getElementById('humidity').textContent = currentWeather.hu + "%"
+    document.getElementById('atmosphericPressure').textContent = currentWeather.pr
+    document.getElementById('windSpeed').textContent = currentWeather.ws
+    document.getElementById('airQualityUS').textContent = currentAirQuality.aqius
+    document.getElementById('airQualityCH').textContent = currentAirQuality.aqicn
+    document.getElementById('searchLocation').textContent = `${cityInput}, ${stateInput}, ${countryInput}`
+
     return response
   } catch (error) {
     console.error(error)
@@ -38,11 +54,12 @@ function setOptions(list) {
 // Create event listener to call getData when search button is click
 form.addEventListener('submit', (e) => {
   e.preventDefault()
-  let countryInput = document.getElementById('countryList').value
-  let stateInput = document.getElementById('state').value
-  let cityInput = document.getElementById('city').value
-  let domain = `http://api.airvisual.com/v2/city?city=${cityInput}&state=${stateInput}&country=${countryInput}&key=a8d5eef1-08b6-4154-a079-74103b291102`
-  getData(domain)
+  getData()
 })
 
-// console.log(getData())
+// Create function that converts celcius to fahrenheit
+function tempConverter(celcius) {
+  return celcius * 9 / 5 + 32
+}
+
+

@@ -1,3 +1,44 @@
 th, td {
-  border-bottom: solid 3px;
+  border-bottom: solid 1px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: blue;
+  padding: 20px 0px;
+  margin-bottom: 80px;
+  border: solid blue 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 75px;
+
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 200px 0;
+}
+
+#searchLocation {
+  background-color: lightgreen;
+}
+
+
+tr {
+  border: solid black 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+body {
+  border: solid blue 5px;
 }
