@@ -111,18 +111,18 @@ https://wireframe.cc/n04juC
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|Get API Data for Countries and Weather| H | 2 hr |-|-|
-|Search Inputs Functionality | H | 3 hr |-|-|
-|Search Dropdown Functionality | H | 3 hr |-|-|
-|Appending DropDown Data to the DOM | H | 2 hr |-|-|
-|Results Table (CSS) | H | 3 hr |-|-|
-|Results Table (HTML/JS) | H | 3 hr |-|-|
-|Fahrenheit Converter | H | 2 hr |-|-|
-|Media Query | M | 2 hr |-|-|
-|Flexbox for Search Inputs and Dropdowns | M | 2 hr |-|-|
-|Advance CSS styling (animations/ gifs backgrounds) | L | 3 hr |-|-|
-|Dropwdown and Input Styling | L | 3 hr |-|-|
-|Total hours |-| 28 hours |-|-|
+|Get API Data for Countries and Weather| H | 2 hr | 2 hr | 2 hr |
+|Search Inputs Functionality | H | 3 hr | 2 hr | 2 hr |
+|Search Dropdown Functionality | H | 3 hr |2 hr |2 hr |
+|Appending DropDown Data to the DOM | H | 2 hr |2 hr |2 hr |
+|Results Table (CSS) | H | 3 hr | 4.5 hr | 4.5 hr |
+|Results Table (HTML/JS) | H | 3 hr |2.5 hr | 2.5 hr |
+|Fahrenheit Converter | H | 2 hr |.5 | .5 |
+|Media Query | M | 2 hr | 1 hr | 1 hr |
+|Flexbox for Search Inputs and Dropdowns | M | 2 hr | 1.5 hr | 1.5 hr |
+|Advance CSS styling (animations/ gifs backgrounds) | L | 3 hr | 3 hr | 3 hr |
+|Dropwdown and Input Styling | L | 3 hr | 1 hr | 1 hr |
+|Total hours |-| 28 hours | 22 hr | 22 hr |
 
 ## Code Snippet
 
