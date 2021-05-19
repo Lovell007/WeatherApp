@@ -1,18 +1,18 @@
 header {
   text-align: center;
-  font-size: 50px;
+  font-size: 65px;
   color: white;
-  background-color: blue;
+  background-color: #0099ff;
   padding: 20px 0px;
   margin-bottom: 80px;
-  border: solid blue 5px;
+  border: solid #0099ff;
 }
 
 form {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-bottom: 75px;
+  padding-bottom: 90px;
 
 }
 
@@ -40,7 +40,7 @@ form {
 }
 
 #searchLocation {
-  background-color: lightgreen;
+  background-color: #0099ff;
   max-width: 315px;
   margin: 0 auto;
   border: solid black 1px;
@@ -54,12 +54,23 @@ form {
 }
 
 body {
-  border: solid blue 5px;
+  border: solid #0099ff 10px;
   align-content: center;
 }
 
 #countryList {
   padding: 2px;
+}
+
+#background {
+  background-size: 290px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-image: url('https://acegif.com/wp-content/gif/snwflks-29.gif'); */
+}
+
+#countryList, #state, #city {
+  border: solid #231651 2px;
 }
 
 @media only screen and (max-width: 600px) {
