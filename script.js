@@ -10,7 +10,7 @@ const getData = async () => {
     let cityInput = document.getElementById('city').value
     const response = await axios.get(`http://api.airvisual.com/v2/city?city=${cityInput}&state=${stateInput}&country=${countryInput}&key=a8d5eef1-08b6-4154-a079-74103b291102`)
 
-    // Displying search results in the results table
+    // Displying the returned data in the results table
     const currentWeather = (response.data.data.current.weather)
     const currentAirQuality = (response.data.data.current.pollution)
     const convertedTemp = tempConverter(currentWeather.tp)

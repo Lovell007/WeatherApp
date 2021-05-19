@@ -12,7 +12,9 @@
 <body>
   <header>Weather App</header>
   <form>
-    <select id="countryList"></select>
+    <div>
+      <select id="countryList"></select>
+    </div>
     <div>State 
       <input id="state" type="text">
     </div>
@@ -23,35 +25,26 @@
       <input id="submit" type="submit">
     </div>
   </form>
-  <table>     
-      <tr>
-        <th  id="searchLocation">Place Holder</th>
-      </tr>     
-      <tr>
-        <th>Current Temperature</th>
-        <td id="currentTemp"></td>
-      </tr>
-      <tr>
-        <th>Humidity</th>
-        <td id="humidity"></td>
-      </tr>
-      <tr>
-        <th>Atmospheric Pressure</th>
-        <td id="atmosphericPressure"></td>
-      </tr>
-      <tr>
-        <th>Wind Speed</th>
-        <td id="windSpeed"></td>
-      </tr>
-      <tr>
-        <th>Air Quality (US EPA)</th>
-        <td id="airQualityUS"></td>
-      </tr>
-      <tr>
-        <th>Air Quality (Chine MEP)</th>
-        <td id="airQualityCH">place holder</td>
-      </tr>
-    </table>
-  
+
+    <div  id="searchLocation" class="table" class="tableDiv">Place Holder</div>
+    <div class="tableDiv">
+      <div class="table">Current Temperature</div><div id="currentTemp" class="table1">--</div>
+    </div>
+    <div class="tableDiv">
+        <div class="table">Humidity</div><div id="humidity" class="table1">--</div>
+    </div>
+    <div class="tableDiv">
+      <div class="table">Atmospheric Pressure</div><div id="atmosphericPressure" class="table1">--</div>
+    </div>
+    <div class="tableDiv">
+      <div class="table">Wind Speed</div><div id="windSpeed" class="table1">--</div>
+    </div>    
+    <div class="tableDiv">
+      <div class="table">Air Quality (US EPA)</div><div id="airQualityUS" class="table1">--</div>
+    </div>
+    <div id="aqDiv" class="tableDiv">
+      <div class="table">Air Quality (Chine MEP)</div><div id="airQualityCH" class="table1">--</div>
+    </div>
+
 </body>
 </html>
