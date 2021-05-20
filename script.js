@@ -72,8 +72,9 @@ function backgrd(weatherData) {
   let animation = document.getElementById('background')
   if (weatherData === "01d") {
     animation.style.backgroundImage = "url('https://media.giphy.com/media/Y08HrLOUu6MqewhQHE/giphy.gif')"
+    animation.style.opacity = ".5"
   }
-  else if (weatherData === "11d" || "10d" || "10n") {
+  else if (weatherData === "11d" || weatherData === "10d" || weatherData === "10n") {
     animation.style.backgroundImage = "url('https://s3-eu-west-1.amazonaws.com/uploads.playbaamboozle.com/uploads/images/178162/1609762173_219689')"
   }
   else if (weatherData === "13d") {
@@ -81,7 +82,7 @@ function backgrd(weatherData) {
     animation.style.backgroundSize = "330px 340px"
     animation.style.backgroundPosition = "bottom"
   }
-  else if (weatherData === "02d" || "02n" || "03d" || "04d") {
+  else if (weatherData === "02d" || weatherData === "02n" || weatherData === "03d" || weatherData === "04d") {
     animation.style.backgroundImage = "url('http://cloudlogistics.com/wp-content/uploads/2020/10/cloudlogistics.gif')"
     animation.style.backgroundSize = "335px"
   }
