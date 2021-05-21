@@ -13,7 +13,6 @@ form {
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 90px;
-
 }
 
 .table {
@@ -63,17 +62,16 @@ body {
 }
 
 #background {
-  background-size: 290px;
+  background-size: 280px;
   background-repeat: no-repeat;
-  background-position: center;
-  /* background-image: url('https://acegif.com/wp-content/gif/snwflks-29.gif'); */
+  background-position: 50% 10%;
 }
 
 #countryList, #state, #city {
   border: solid #231651 2px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   form {
     flex-wrap: wrap;
     flex-direction: column;

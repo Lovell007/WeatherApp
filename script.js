@@ -8,8 +8,7 @@ const getData = async () => {
     let countryInput = document.getElementById('countryList').value
     let stateInput = document.getElementById('state').value
     let cityInput = document.getElementById('city').value
-    const response = await axios.get(`http://api.airvisual.com/v2/city?city=${cityInput}&state=${stateInput}&country=${countryInput}&key=a8d5eef1-08b6-4154-a079-74103b291102`)
-    console.log(response)
+    const response = await axios.get(`https://api.airvisual.com/v2/city?city=${cityInput}&state=${stateInput}&country=${countryInput}&key=a8d5eef1-08b6-4154-a079-74103b291102`)
 
     // Displying the returned data in the results table
     const currentWeather = (response.data.data.current.weather)
@@ -25,8 +24,6 @@ const getData = async () => {
     document.getElementById('airQualityCH').textContent = currentAirQuality.aqicn
     document.getElementById('searchLocation').textContent = `${cityInput}, ${stateInput}, ${countryInput}`
     backgrd(icon)
-    // background('13d')
-    console.log('icon')
     return response
   } catch (error) {
     console.error(error)
@@ -35,9 +32,8 @@ const getData = async () => {
 //Get country data for dropdown box
 const countryData = async () => {
   try {
-    const response2 = await axios.get(`http://api.airvisual.com/v2/countries?key=a8d5eef1-08b6-4154-a079-74103b291102`)
+    const response2 = await axios.get(`https://api.airvisual.com/v2/countries?key=a8d5eef1-08b6-4154-a079-74103b291102`)
     const countries = (response2.data.data)
-    // console.log(countries)
     setOptions(countries)
     return response2
   } catch (error) {
@@ -50,9 +46,7 @@ function setOptions(list) {
   list.forEach((eachCountry) => {
     let optionTag = document.createElement('option')
     optionTag.textContent = eachCountry.country
-    // optionTag.value = country
     countryList.append(optionTag)
-    // console.log(eachCountry)
   })
 }
 // Create event listener to call getData when search button is click
@@ -72,7 +66,6 @@ function backgrd(weatherData) {
   let animation = document.getElementById('background')
   if (weatherData === "01d") {
     animation.style.backgroundImage = "url('https://media.giphy.com/media/Y08HrLOUu6MqewhQHE/giphy.gif')"
-    animation.style.opacity = ".5"
   }
   else if (weatherData === "11d" || weatherData === "10d" || weatherData === "10n") {
     animation.style.backgroundImage = "url('https://s3-eu-west-1.amazonaws.com/uploads.playbaamboozle.com/uploads/images/178162/1609762173_219689')"

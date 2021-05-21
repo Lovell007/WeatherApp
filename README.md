@@ -2,6 +2,7 @@
 # Weather App
 
 ## Description
+https://lovell007.github.io/weather-app/
 
 An application that allows you to search for weather and air quality based on country, state, and city.
 
@@ -9,7 +10,7 @@ An application that allows you to search for weather and air quality based on co
 
 I'm using AirVisual API: https://api-docs.iqair.com/?version=latest
 
-Sample API endpoint: http://api.airvisual.com/v2/city?city=Los+Angeles&state=California&country=USA&key={{YOUR_API_KEY}}
+Sample API endpoint: https://api.airvisual.com/v2/city?city=Los+Angeles&state=California&country=USA&key={{YOUR_API_KEY}}
 ```json
 {
     "status": "success",
